@@ -6,7 +6,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
 
 ### 🔗 Links
 - [Blog](https://jakelacey2012.github.io/blog/)
-- [Security Resources](https://jakelacey2012.github.io/h/)
+- [Hitch-Hackers Guide to the Galaxay](https://jakelacey2012.github.io/hackers-guide-to-the-galaxy/)
 - Links I Love
   - [Learn go with tests](https://github.com/quii/learn-go-with-tests)
 
