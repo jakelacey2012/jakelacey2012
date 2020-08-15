@@ -11,7 +11,11 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
   - [Busqit](https://github.com/Busqit): A platform for the web
   - [Hitch Hackers Guide to the Galaxay](https://jakelacey2012.github.io/hitch-hackers-guide-to-the-galaxy/): A place to learn about security and ethical hacking
 - Links I Love:
-  - [Learn go with tests](https://github.com/quii/learn-go-with-tests)
+  - Ruby
+     - [Stub external service](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
+  - Go
+     - [Learn go with tests](https://github.com/quii/learn-go-with-tests)
+     - [Configuration Mangagment](https://github.com/ilyakaznacheev/cleanenv)
 
 ### 📭 Contact me
 - jakewlacey@gmail.com
