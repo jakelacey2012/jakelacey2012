@@ -6,12 +6,12 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
 
 ### 🔗 Links
 - [Blog](https://jakelacey2012.github.io/blog/): Mind dump to be honest, this is more for my benefit for when (not if) I forget.
-- Links I Love
-  - [Learn go with tests](https://github.com/quii/learn-go-with-tests)
 - Projects
   - [Phonito](https://phonito.io): A docker security and monitoring tool
   - [Busqit](https://github.com/Busqit): A platform for the web
   - [Hitch-Hackers Guide to the Galaxay](https://jakelacey2012.github.io/hackers-guide-to-the-galaxy/): A place to learn about security and ethical hacking
+- Links I Love
+  - [Learn go with tests](https://github.com/quii/learn-go-with-tests)
 
 ### 📭 Contact me
 - jakewlacey@gmail.com
