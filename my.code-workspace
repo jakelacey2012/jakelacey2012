@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "languages/go/configuration"
+		},
+		{
+			"path": "languages/go/modules"
+		}
+	]
+}
