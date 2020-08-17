@@ -11,6 +11,8 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
   - [Busqit](https://github.com/Busqit): A platform for the web
   - [Hitch Hackers Guide to the Galaxay](https://jakelacey2012.github.io/hitch-hackers-guide-to-the-galaxy/): A place to learn about security and ethical hacking
 - Links I Love:
+  - Talks
+     - [The Clean Architecture - Ian Cooper](https://www.youtube.com/watch?v=SxJPQ5qXisw)
   - Ruby
      - [Stub external service](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
   - Go

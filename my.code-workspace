@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "languages/go/modules"
+		},
+		{
+			"path": "languages/go/server"
 		}
 	]
 }
