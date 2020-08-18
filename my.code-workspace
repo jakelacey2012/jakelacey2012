@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "languages/go/server"
+		},
+		{
+			"path": "languages/go/katas/game-of-life"
 		}
 	]
 }
