@@ -5,7 +5,7 @@ import "testing"
 // Any dead cell should remain dead with no Neighbours
 func TestDeadCellShouldRemainDead(t *testing.T) {
 	cell := &Cell{
-		living: false,
+		Living: false,
 		Top:    &Cell{},
 		Right:  &Cell{},
 		Bottom: &Cell{},
@@ -19,7 +19,7 @@ func TestDeadCellShouldRemainDead(t *testing.T) {
 // Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
 func TestCellDiesWithFewerThanTwoNeighbours(t *testing.T) {
 	cell := &Cell{
-		living: true,
+		Living: true,
 		Top:    &Cell{},
 		Right:  &Cell{},
 		Bottom: &Cell{},
@@ -33,11 +33,11 @@ func TestCellDiesWithFewerThanTwoNeighbours(t *testing.T) {
 // Any live cell with more than three live neighbours dies, as if by overcrowding.
 func TestCellDiesWithMoreThanThreeNeighbours(t *testing.T) {
 	cell := &Cell{
-		living: true,
-		Top:    &Cell{living: true},
-		Right:  &Cell{living: true},
-		Bottom: &Cell{living: true},
-		Left:   &Cell{living: true},
+		Living: true,
+		Top:    &Cell{Living: true},
+		Right:  &Cell{Living: true},
+		Bottom: &Cell{Living: true},
+		Left:   &Cell{Living: true},
 	}
 	if cell.IsAlive() {
 		t.Errorf("Expected cell to be dead but is alive")
@@ -47,9 +47,9 @@ func TestCellDiesWithMoreThanThreeNeighbours(t *testing.T) {
 // Any live cell with two or three live neighbours lives on to the next generation.
 func TestCellLivesWithTwoLivingNeighbours(t *testing.T) {
 	cell := &Cell{
-		living: true,
-		Top:    &Cell{living: true},
-		Right:  &Cell{living: true},
+		Living: true,
+		Top:    &Cell{Living: true},
+		Right:  &Cell{Living: true},
 		Bottom: &Cell{},
 		Left:   &Cell{},
 	}
@@ -60,10 +60,10 @@ func TestCellLivesWithTwoLivingNeighbours(t *testing.T) {
 
 func TestCellLivesWithThreeLivingNeighbours(t *testing.T) {
 	cell := &Cell{
-		living: true,
-		Top:    &Cell{living: true},
-		Right:  &Cell{living: true},
-		Bottom: &Cell{living: true},
+		Living: true,
+		Top:    &Cell{Living: true},
+		Right:  &Cell{Living: true},
+		Bottom: &Cell{Living: true},
 		Left:   &Cell{},
 	}
 	if cell.IsAlive() == false {
@@ -74,10 +74,10 @@ func TestCellLivesWithThreeLivingNeighbours(t *testing.T) {
 /// Any dead cell with exactly three live neighbours becomes a live cell.
 func TestDeadCellBecomesAliveWithExactlyThreeNeighbours(t *testing.T) {
 	cell := &Cell{
-		living: false,
-		Top:    &Cell{living: true},
-		Right:  &Cell{living: true},
-		Bottom: &Cell{living: true},
+		Living: false,
+		Top:    &Cell{Living: true},
+		Right:  &Cell{Living: true},
+		Bottom: &Cell{Living: true},
 		Left:   &Cell{},
 	}
 	if cell.IsAlive() == false {
