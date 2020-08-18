@@ -1,5 +1,3 @@
-import { application } from "express";
-
 const signInFederatedController = (account) => (request, response, next) => {
     const { username, password } = request.body;
     const { clientId, realm, thirdPartyRedirectUri } = request.query;
