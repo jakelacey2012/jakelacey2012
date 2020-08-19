@@ -22,7 +22,5 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
      - [Learn go with tests](https://github.com/quii/learn-go-with-tests)
      - [Configuration Mangagment](https://github.com/ilyakaznacheev/cleanenv)
 
-> Accept interfaces return structs
-
 ### 📭 Contact me
 - jakewlacey@gmail.com
