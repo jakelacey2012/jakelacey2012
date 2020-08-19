@@ -14,12 +14,15 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
   - Talks
      - [The Clean Architecture - Ian Cooper](https://www.youtube.com/watch?v=SxJPQ5qXisw)
      - [Documenting Go Code with Beautiful Tests - Pawel Slomka](https://www.youtube.com/watch?v=TGg6cc0QCzw)
+     - [SOLID Go Design - Dave Cheney](https://www.youtube.com/watch?v=zzAdEt3xZ1M)
   - Ruby
      - [How we test rails applications - Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
      - [Stub external service - Thoughtbot](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
   - Go
      - [Learn go with tests](https://github.com/quii/learn-go-with-tests)
      - [Configuration Mangagment](https://github.com/ilyakaznacheev/cleanenv)
+
+> Accept interfaces return structs
 
 ### 📭 Contact me
 - jakewlacey@gmail.com
