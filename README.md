@@ -13,6 +13,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
 - Links I Love:
   - Talks
      - [The Clean Architecture - Ian Cooper](https://www.youtube.com/watch?v=SxJPQ5qXisw)
+     - [Documenting Go Code with Beautiful Tests - Pawel Slomka](https://www.youtube.com/watch?v=TGg6cc0QCzw)
   - Ruby
      - [How we test rails applications - Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
      - [Stub external service - Thoughtbot](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)

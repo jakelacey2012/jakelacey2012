@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "languages/go/katas/game-of-life"
+		},
+		{
+			"path": "languages/go/channels"
 		}
 	]
 }
