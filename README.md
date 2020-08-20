@@ -15,6 +15,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
      - [The Clean Architecture - Ian Cooper](https://www.youtube.com/watch?v=SxJPQ5qXisw)
      - [Documenting Go Code with Beautiful Tests - Pawel Slomka](https://www.youtube.com/watch?v=TGg6cc0QCzw)
      - [SOLID Go Design - Dave Cheney](https://www.youtube.com/watch?v=zzAdEt3xZ1M)
+     - [Concurrency made easy - Dave Cheney](https://www.youtube.com/watch?v=yKQOunhhf4A)
      - [PKI for Gophers - Eric Chiang](https://www.youtube.com/watch?v=VwPQKS9Njv0)
      - [How I Write HTTP Web Services after Eight Years - Mat Ryer](https://www.youtube.com/watch?v=rWBSMsLG8po)
   - Ruby
