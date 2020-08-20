@@ -25,6 +25,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
   - Go
      - [Learn go with tests](https://github.com/quii/learn-go-with-tests)
      - [Configuration Mangagment](https://github.com/ilyakaznacheev/cleanenv)
+     - [Golang Security Checker](https://github.com/securego/gosec)
 
 ### 📭 Contact me
 - jakewlacey@gmail.com
