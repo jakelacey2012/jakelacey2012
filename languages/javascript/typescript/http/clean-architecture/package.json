@@ -1,0 +1,22 @@
+{
+  "name": "clean-architecture",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/jakelacey2012/jakelacey2012/languages/javascript/typescript/http/clean-architecture"
+  },
+  "description": "[Based from the NodeJS example](../../../node/http/clean-architecture/README.md) where we structure the application with clean architecture in mind.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/joi": "^14.3.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

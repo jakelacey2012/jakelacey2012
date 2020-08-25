@@ -20,6 +20,12 @@
 		},
 		{
 			"path": "languages/go/monorepo"
+		},
+		{
+			"path": "languages/javascript"
+		},
+		{
+			"path": "languages/javascript/typescript/http/clean-architecture"
 		}
 	]
 }
