@@ -20,6 +20,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
      - [How I Write HTTP Web Services after Eight Years - Mat Ryer](https://www.youtube.com/watch?v=rWBSMsLG8po)
      - [Going secure with Go - Natalie Pistunovich](https://www.youtube.com/watch?v=9e2gRtzemGo)
      - [How Uber Goes - Elena Morozova](https://www.youtube.com/watch?v=nLskCRJOdxM)
+     - [How to Attack a JWT](https://www.youtube.com/watch?v=muYmiEtPL8U)
   - Ruby
      - [How we test rails applications - Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
      - [Stub external service - Thoughtbot](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
