@@ -29,6 +29,8 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
      - [Configuration Mangagment](https://github.com/ilyakaznacheev/cleanenv)
      - [Golang Security Checker](https://github.com/securego/gosec)
      - [The Zen of Go](https://the-zen-of-go.netlify.app/)
+ - Elixir
+     - [How to build a simple web server](https://dev.to/jonlunsford/elixir-building-a-small-json-endpoint-with-plug-cowboy-and-poison-1826)
 
 ### 📭 Contact me
 - jakewlacey@gmail.com
