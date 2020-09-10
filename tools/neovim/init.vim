@@ -1,8 +1,9 @@
 call plug#begin()
-
-
+Plug 'jcherven/jummidark.vim'
 call plug#end()
 
-syntax on
 set number
+syntax enable
+colorscheme jummidark
+
 
