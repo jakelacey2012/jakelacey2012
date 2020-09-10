@@ -1,0 +1,4 @@
+# Vim cheatsheet
+
+FuzzySearch: crlp
+
