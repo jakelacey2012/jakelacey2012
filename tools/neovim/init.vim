@@ -6,6 +6,7 @@ Plug 'jcherven/jummidark.vim'
 " Editor plugins
 Plug 'preservim/nerdtree'
 Plug 'kien/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
 
 " Language plugins
 Plug 'slashmili/alchemist.vim'
