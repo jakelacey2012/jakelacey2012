@@ -28,12 +28,6 @@ colorscheme jummidark
 
 " Nerdtree settings
 map <C-n> :NERDTreeToggle<CR>
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree show nerdtree by default
 
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
-let g:ctrlp_custom_ignore = '\v[\/]\(node_modules|deps|_build)$'
-let g:ctrlp_custom_ignore = {
-  \ 'file': '\v\.(exe|so|dll)$',
-  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-  \ 'link': 'some_bad_symbolic_links',
-  \ }
+let g:ctrlp_custom_ignore = '\v[\/](_build|deps|node_modules|target|dist)|(\.(swp|ico|git|svn))$'
