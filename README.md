@@ -14,6 +14,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
   - Talks
      - [The Clean Architecture - Ian Cooper](https://www.youtube.com/watch?v=SxJPQ5qXisw)
      - [How to Attack a JWT](https://www.youtube.com/watch?v=muYmiEtPL8U)
+	 - [Thinking Fast and Slow - Linda Rising](https://www.youtube.com/watch?v=XjbTLIqnq-o)
   - Ruby
      - [How we test rails applications - Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
      - [Stub external service - Thoughtbot](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
@@ -32,6 +33,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
    - Elixir
      - [How to build a simple web server](https://dev.to/jonlunsford/elixir-building-a-small-json-endpoint-with-plug-cowboy-and-poison-1826)
      - [Thinking in Ecto - Darin Wilson](https://www.youtube.com/watch?v=YQxopjai0CU)
-
+	 - [External Service testing in Phoenix](https://dev.to/vinhnglx/external-service-testing-in-phoenix-3ehg)
+	
 ### 📭 Contact me
 - jakewlacey@gmail.com
