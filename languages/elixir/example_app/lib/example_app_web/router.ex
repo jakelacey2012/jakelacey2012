@@ -1,5 +1,5 @@
-defmodule FullAppWeb.Router do
-  use FullAppWeb, :router
+defmodule ExampleAppWeb.Router do
+  use ExampleAppWeb, :router
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -13,15 +13,14 @@ defmodule FullAppWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", FullAppWeb do
+  scope "/", ExampleAppWeb do
     pipe_through :browser
 
     get "/", PageController, :index
-    resources "/users", UserController
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", FullAppWeb do
+  # scope "/api", ExampleAppWeb do
   #   pipe_through :api
   # end
 
@@ -37,7 +36,7 @@ defmodule FullAppWeb.Router do
 
     scope "/" do
       pipe_through :browser
-      live_dashboard "/dashboard", metrics: FullAppWeb.Telemetry
+      live_dashboard "/dashboard", metrics: ExampleAppWeb.Telemetry
     end
   end
 end

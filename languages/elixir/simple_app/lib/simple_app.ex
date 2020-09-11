@@ -9,7 +9,7 @@ defmodule SimpleApp do
   plug(:dispatch)
 
   get "/ping" do
-    send_resp(conn, 200, "pong!")
+    send_resp(conn, 200, Thing.sum())
   end
 
   match _ do
