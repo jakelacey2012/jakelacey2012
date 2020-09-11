@@ -11,7 +11,6 @@ Plug 'vim-airline/vim-airline'
 " Language plugins
 Plug 'slashmili/alchemist.vim'
 Plug 'elixir-editors/vim-elixir'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 call plug#end()
