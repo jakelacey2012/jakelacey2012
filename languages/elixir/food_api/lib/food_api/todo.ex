@@ -2,12 +2,10 @@ defmodule FoodApi.Todo do
 
   alias FoodApi.Food.Todo
 
-  import FoodApi.Service
-
-  # %Recipe{} = recipe
+  @service Application.get_env(:food_api, :service)
 
   def fetch() do
-    case todo() do
+    case @service.todo() do
       {:ok, %Todo{} = to} -> to
       {:error, reason} -> reason
     end

@@ -6,5 +6,7 @@ config :food_api, FoodApiWeb.Endpoint,
   http: [port: 4002],
   server: false
 
+config :food_api, :service, FoodApi.MockService
+
 # Print only warnings and errors during test
 config :logger, level: :warn

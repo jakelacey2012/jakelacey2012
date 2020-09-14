@@ -13,6 +13,8 @@ config :food_api, FoodApiWeb.Endpoint,
   check_origin: false,
   watchers: []
 
+config :food_api, :service, FoodApi.Service
+
 # ## SSL Support
 #
 # In order to use HTTPS in development, a self-signed

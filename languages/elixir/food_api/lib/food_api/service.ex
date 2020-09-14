@@ -38,3 +38,13 @@ defmodule FoodApi.Service do
   end
 
 end
+
+
+defmodule FoodApi.MockService do
+  def todo() do
+    {:ok, %FoodApi.Food.Todo{
+      title: "thing",
+      completed: false,
+    }}
+  end
+end
