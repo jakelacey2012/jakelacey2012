@@ -16,7 +16,6 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
 
 " Editor settings
-set number
 set cursorline
 set noswapfile
 set guicursor=
