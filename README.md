@@ -32,6 +32,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
      - [How Uber Goes - Elena Morozova](https://www.youtube.com/watch?v=nLskCRJOdxM)
      - [The Zen of Go](https://the-zen-of-go.netlify.app/)
    - Elixir
+     - [Elixir School](https://elixirschool.com/)
      - [How to build a simple web server](https://dev.to/jonlunsford/elixir-building-a-small-json-endpoint-with-plug-cowboy-and-poison-1826)
      - [Thinking in Ecto - Darin Wilson](https://www.youtube.com/watch?v=YQxopjai0CU)
 	 - [External Service testing in Phoenix](https://dev.to/vinhnglx/external-service-testing-in-phoenix-3ehg)
