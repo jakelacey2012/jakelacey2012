@@ -18,3 +18,10 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+
+## Notes
+
+post = Chirp.TimeLine.Post |> Chirp.Repo.get!(1) |> Chirp.Repo.preload(:comments)
+%Chirp.Post.Comment{} |> Chirp.Post.Comment.changeset(%{body: "something"})
+%Chirp.Post.Comment{body: "something", post_id: post.id} |> Chirp.Repo.insert!()
