@@ -13,7 +13,7 @@ defmodule Chirp.Post.Comment do
   @doc false
   def changeset(comment, attrs) do
     comment
-    |> cast(attrs, [:body])
+    |> cast(attrs, [:body, :post_id])
     |> validate_required([:body])
     |> validate_length(:body, min: 2, max: 250)
   end

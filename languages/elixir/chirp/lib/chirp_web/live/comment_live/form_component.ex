@@ -3,6 +3,8 @@ defmodule ChirpWeb.CommentLive.FormComponent do
 
   alias Chirp.Post
 
+  require Logger
+
   @impl true
   def update(%{comment: comment} = assigns, socket) do
     changeset = Post.change_comment(comment)
@@ -27,20 +29,23 @@ defmodule ChirpWeb.CommentLive.FormComponent do
     save_comment(socket, socket.assigns.action, comment_params)
   end
 
-  defp save_comment(socket, :edit, comment_params) do
-    case Post.update_comment(socket.assigns.comment, comment_params) do
-      {:ok, _comment} ->
-        {:noreply,
-         socket
-         |> put_flash(:info, "Comment updated successfully")
-         |> push_redirect(to: socket.assigns.return_to)}
+  # defp save_comment(socket, :edit, comment_params) do
+  #   case Post.update_comment(socket.assigns.comment, comment_params) do
+  #     {:ok, _comment} ->
+  #       {:noreply,
+  #        socket
+  #        |> put_flash(:info, "Comment updated successfully")
+  #        |> push_redirect(to: socket.assigns.return_to)}
 
-      {:error, %Ecto.Changeset{} = changeset} ->
-        {:noreply, assign(socket, :changeset, changeset)}
-    end
-  end
+  #     {:error, %Ecto.Changeset{} = changeset} ->
+  #       {:noreply, assign(socket, :changeset, changeset)}
+  #   end
+  # end
 
   defp save_comment(socket, :new, comment_params) do
+
+    Logger.debug inspect(comment_params)
+
     case Post.create_comment(comment_params) do
       {:ok, _comment} ->
         {:noreply,

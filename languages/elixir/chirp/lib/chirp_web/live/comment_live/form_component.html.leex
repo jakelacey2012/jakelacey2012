@@ -9,5 +9,7 @@
   <%= textarea f, :body %>
   <%= error_tag f, :body %>
 
+  <%= hidden_input f, :post_id %>
+
   <%= submit "Save", phx_disable_with: "Saving..." %>
 </form>

@@ -3,6 +3,8 @@ defmodule Chirp.Post do
   The Post context.
   """
 
+  require Logger
+
   import Ecto.Query, warn: false
   alias Chirp.Repo
 
