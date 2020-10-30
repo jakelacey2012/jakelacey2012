@@ -26,12 +26,12 @@ defmodule ChirpWeb.Router do
     live "/posts/:id", PostLive.Show, :show
     live "/posts/:id/show/edit", PostLive.Show, :edit
 
-    live "/comments", CommentLive.Index, :index
-    live "/comments/new", CommentLive.Index, :new
-    live "/comments/:id/edit", CommentLive.Index, :edit
+    live "/posts/:post_id/comments", CommentLive.Index, :index
+    live "/posts/:post_id/comments/new", CommentLive.Index, :new
+    live "/posts/:post_id/comments/:id/edit", CommentLive.Index, :edit
 
-    live "/comments/:id", CommentLive.Show, :show
-    live "/comments/:id/show/edit", CommentLive.Show, :edit
+    # live "/comments/:id", CommentLive.Show, :show
+    # live "/comments/:id/show/edit", CommentLive.Show, :edit
   end
 
   # Other scopes may use custom stacks.

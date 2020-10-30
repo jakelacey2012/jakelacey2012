@@ -20,15 +20,17 @@ defmodule ChirpWeb.CommentLive.Index do
     |> assign(:comment, Post.get_comment!(id))
   end
 
-  defp apply_action(socket, :new, _params) do
+  defp apply_action(socket, :new, %{"post_id" => post_id}) do
     socket
     |> assign(:page_title, "New Comment")
+    |> assign(:post_id, post_id)
     |> assign(:comment, %Comment{})
   end
 
-  defp apply_action(socket, :index, _params) do
+  defp apply_action(socket, :index, %{"post_id" => post_id}) do
     socket
     |> assign(:page_title, "Listing Comments")
+    |> assign(:post_id, post_id)
     |> assign(:comment, nil)
   end
 
