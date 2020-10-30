@@ -19,6 +19,7 @@ defmodule Chirp.TimeLine do
   """
   def list_posts do
     Repo.all(from p in Post, order_by: [desc: p.id])
+      |> Repo.preload([:comments])
   end
 
   @doc """
@@ -35,7 +36,7 @@ defmodule Chirp.TimeLine do
       ** (Ecto.NoResultsError)
 
   """
-  def get_post!(id), do: Repo.get!(Post, id)
+  def get_post!(id), do: Repo.get!(Post, id) |> Repo.preload([:comments])
 
   @doc """
   Creates a post.

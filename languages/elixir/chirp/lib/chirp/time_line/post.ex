@@ -7,6 +7,7 @@ defmodule Chirp.TimeLine.Post do
     field :likes_count, :integer, default: 0
     field :repost_count, :integer, default: 0
     field :username, :string, default: "Jake Lacey"
+    has_many :comments, Chirp.Post.Comment
 
     timestamps()
   end
