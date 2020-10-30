@@ -9,6 +9,15 @@
     return_to: Routes.post_show_path(@socket, :show, @post) %>
 <% end %>
 
+<%= if @live_action in [:new] do %>
+  <%= live_modal @socket, ChirpWeb.CommentLive.FormComponent,
+    id: :new,
+    title: @page_title,
+    action: @live_action,
+    comment: @comment,
+    return_to: Routes.post_show_path(@socket, :show, @post) %>
+<% end %>
+
 <ul>
 
   <li>
@@ -51,7 +60,6 @@
   </tbody>
 </table>
 
-<span><%= live_patch "New Comment", to: Routes.comment_index_path(@socket, :index, @post.id), class: "button" %></span>
-
+<span><%= live_patch "New Comment", to: Routes.post_show_path(@socket, :new, @post.id), class: "button" %></span>
 <span><%= live_patch "Edit", to: Routes.post_show_path(@socket, :edit, @post), class: "button" %></span>
 <span><%= live_redirect "Back", to: Routes.post_index_path(@socket, :index) %></span>

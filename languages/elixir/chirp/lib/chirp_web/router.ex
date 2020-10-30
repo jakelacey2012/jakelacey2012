@@ -24,11 +24,11 @@ defmodule ChirpWeb.Router do
     live "/posts/:id/edit", PostLive.Index, :edit
 
     live "/posts/:id", PostLive.Show, :show
+    live "/posts/:id/comments/new", PostLive.Show, :new
     live "/posts/:id/show/edit", PostLive.Show, :edit
 
-    live "/posts/:post_id/comments", CommentLive.Index, :index
-    live "/posts/:post_id/comments/new", CommentLive.Index, :new
-    live "/posts/:post_id/comments/:id/edit", CommentLive.Index, :edit
+    # live "/posts/:post_id/comments", CommentLive.Index, :index
+    # live "/posts/:post_id/comments/:id/edit", CommentLive.Index, :edit
 
     # live "/comments/:id", CommentLive.Show, :show
     # live "/comments/:id/show/edit", CommentLive.Show, :edit
