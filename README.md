@@ -1,4 +1,4 @@
-# 👋 Hi I'm Jake
+I# 👋 Hi I'm Jake
 
 Software engineer at the [BBC](https://bbc.co.uk), guitarist, music lover and keen runner. 
 
@@ -16,6 +16,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
      - [How to Attack a JWT](https://www.youtube.com/watch?v=muYmiEtPL8U)
 	 - [Thinking Fast and Slow - Linda Rising](https://www.youtube.com/watch?v=XjbTLIqnq-o)
      - [Workflows of Refactoring - Martin Fowler](https://www.youtube.com/watch?v=vqEg37e4Mkw)
+     - [Kubernetes at Small Scale - Phil Toland](https://www.youtube.com/watch?v=i3tqGlBWHNs)
   - Ruby
      - [How we test rails applications - Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
      - [Stub external service - Thoughtbot](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
