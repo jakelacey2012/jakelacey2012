@@ -25,3 +25,4 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 post = Chirp.TimeLine.Post |> Chirp.Repo.get!(1) |> Chirp.Repo.preload(:comments)
 %Chirp.Post.Comment{} |> Chirp.Post.Comment.changeset(%{body: "something"})
 %Chirp.Post.Comment{body: "something", post_id: post.id} |> Chirp.Repo.insert!()
+Chirp.Post.Comment |> Chirp.Repo.all!()
