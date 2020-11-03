@@ -17,7 +17,12 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
 	 - [Thinking Fast and Slow - Linda Rising](https://www.youtube.com/watch?v=XjbTLIqnq-o)
      - [Workflows of Refactoring - Martin Fowler](https://www.youtube.com/watch?v=vqEg37e4Mkw)
      - [Kubernetes at Small Scale - Phil Toland](https://www.youtube.com/watch?v=i3tqGlBWHNs)
-     - [How we work at Basecamp](https://www.youtube.com/watch?v=ATpJBeuknaQ)
+     - [How we work at Basecamp - Ryan Singer](https://www.youtube.com/watch?v=ATpJBeuknaQ)
+       - [Expect to be done](https://www.youtube.com/watch?v=VxMLpe9dQ2g)
+	   - [Some Version](https://www.youtube.com/watch?v=pj2_ABFz9Tg)
+       - [Deliberate Allocation](https://www.youtube.com/watch?v=M43-0t-hckQ)
+	   - [Knowns vs Unknowns](https://www.youtube.com/watch?v=JwrI6rxELFw)
+	   - [The Hill Chart](https://www.youtube.com/watch?v=UlLkS0lxRV0)
   - Ruby
      - [How we test rails applications - Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
      - [Stub external service - Thoughtbot](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
