@@ -39,6 +39,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
        - [Ecto’s insert_all and schemaless queries](http://blog.plataformatec.com.br/2016/05/ectos-insert_all-and-schemaless-queries/)
      - [External Service testing in Phoenix](https://dev.to/vinhnglx/external-service-testing-in-phoenix-3ehg)
 	 - [BEAM and Kubernetes: Better together? - Cory O'Daniel](https://www.youtube.com/watch?v=Nv6GfEGv0kc)
+	 - [Testing LiveView - German Velasco](https://www.youtube.com/watch?v=h8NURVLysrk)
 	
 ### 📭 Contact me
 - jakewlacey@gmail.com
