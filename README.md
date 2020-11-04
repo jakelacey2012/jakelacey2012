@@ -24,6 +24,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
 	   - [Knowns vs Unknowns](https://www.youtube.com/watch?v=JwrI6rxELFw)
 	   - [The Hill Chart](https://www.youtube.com/watch?v=UlLkS0lxRV0)
        - [40 hours is enough - Jason Fried](https://www.youtube.com/watch?v=r_cc-JrTe38)
+       - [Shape Up (pdf)](https://basecamp.com/shapeup/shape-up.pdf)
   - Ruby
      - [How we test rails applications - Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
      - [Stub external service - Thoughtbot](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
