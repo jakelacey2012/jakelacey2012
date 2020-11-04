@@ -1,8 +1,8 @@
-I# 👋 Hi I'm Jake
+# 👋 Hi I'm Jake
 
 Software engineer at the [BBC](https://bbc.co.uk), guitarist, music lover and keen runner. 
 
-I've been a software engineer for just over 6 years, I'm a self-taught developer, software was and still is my hobby and now its my full time career. I've worked on large and small systems. I'm passionate about building software that improves people's lives.
+I've been a software engineer for just over 6 years, I'm a self-taught developer, software was and still is my hobby and now its my full time career. I've worked on large and small systems. I'm passionate about building software that improves people's lives. 
 
 ### 🔗 Links
 - [Blog](https://jakelacey2012.github.io/blog/)
@@ -23,6 +23,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
        - [Deliberate Allocation](https://www.youtube.com/watch?v=M43-0t-hckQ)
 	   - [Knowns vs Unknowns](https://www.youtube.com/watch?v=JwrI6rxELFw)
 	   - [The Hill Chart](https://www.youtube.com/watch?v=UlLkS0lxRV0)
+       - [40 hours is enough - Jason Fried](https://www.youtube.com/watch?v=r_cc-JrTe38)
   - Ruby
      - [How we test rails applications - Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
      - [Stub external service - Thoughtbot](https://thoughtbot.com/blog/how-to-stub-external-services-in-tests)
