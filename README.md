@@ -12,6 +12,7 @@ I've been a software engineer for just over 6 years, I'm a self-taught developer
   - [Hitch Hackers Guide to the Galaxay](https://jakelacey2012.github.io/hitch-hackers-guide-to-the-galaxy/): A place to learn about security and ethical hacking
 - Links I Love:
   - Talks
+     - [Writing Clean Code - Garrett Smith](https://www.youtube.com/watch?v=CQyt9Vlkbis) 
      - [The Clean Architecture - Ian Cooper](https://www.youtube.com/watch?v=SxJPQ5qXisw)
      - [How to Attack a JWT](https://www.youtube.com/watch?v=muYmiEtPL8U)
 	 - [Thinking Fast and Slow - Linda Rising](https://www.youtube.com/watch?v=XjbTLIqnq-o)
