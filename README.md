@@ -5,7 +5,7 @@ Software engineer at [Auth0](https://auth0.com), formally [BBC](https://bbc.co.u
 I've been a software engineer for just over 6 years, I'm a self-taught developer, software was and still is my hobby and now its my full time career. I've worked on large and small systems. I'm passionate about building software that improves people's lives. 
 
 ### 🔗 Links
-- [Blog](https://jakelacey2012.github.io/blog/)
+- [Blog](https://jakelacey.com)
 - Projects:
   - [Phonito](https://phonito.io): A docker security and monitoring tool
   - [Busqit](https://github.com/Busqit): A platform for the web
