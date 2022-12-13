@@ -7,7 +7,7 @@
   "description": "[Based from the NodeJS example](../../../node/http/clean-architecture/README.md) where we structure the application with clean architecture in mind.",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "joi": "^17.2.1"
   },
   "devDependencies": {
