@@ -5,11 +5,6 @@ Senior Software Engineer on the Protocols Team at [Auth0](https://auth0.com), fo
 I've been a software engineer for just over 8 years, I'm a self-taught developer, software was and still is my hobby and now its my full time career. I've worked on large and small systems. I'm passionate about building software that improves people's lives. 
 
 ### 🔗 Links
-- [Blog](https://jakelacey.com)
-- Projects:
-  - [Phonito](https://phonito.io): A docker security and monitoring tool
-  - [Busqit](https://github.com/Busqit): A platform for the web
-  - [Hitch Hackers Guide to the Galaxay](https://jakelacey2012.github.io/hitch-hackers-guide-to-the-galaxy/): A place to learn about security and ethical hacking
 - Links I Love:
   - Talks
      - [Writing Clean Code - Garrett Smith](https://www.youtube.com/watch?v=CQyt9Vlkbis) 
