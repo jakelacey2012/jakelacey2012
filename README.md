@@ -1,8 +1,8 @@
 # 👋 Hi I'm Jake
 
-Software engineer at [Auth0](https://auth0.com), formally [BBC](https://bbc.co.uk), guitarist, music lover and keen runner. 
+Senior Software Engineer on the Protocols Team at [Auth0](https://auth0.com), formally [BBC](https://bbc.co.uk), guitarist, music lover and keen runner. 
 
-I've been a software engineer for just over 6 years, I'm a self-taught developer, software was and still is my hobby and now its my full time career. I've worked on large and small systems. I'm passionate about building software that improves people's lives. 
+I've been a software engineer for just over 8 years, I'm a self-taught developer, software was and still is my hobby and now its my full time career. I've worked on large and small systems. I'm passionate about building software that improves people's lives. 
 
 ### 🔗 Links
 - [Blog](https://jakelacey.com)
